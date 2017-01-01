@@ -26,11 +26,11 @@ class SearcherThread<T> extends Thread
     @Override
     public void run()
     {
-        for (int i=start; i<end &&!Thread.currentThread().isInterrupted() && !isFound.get(); ++i)
+        for (int i=start; i<end &&!Thread.currentThread().isInterrupted() && !isFound.get(); ++i) {
             if (haystack[i].equals(needle)) {
                 result = i;
                 isFound.set(true);
-                break;
             }
+        }
     }
 }
