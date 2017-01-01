@@ -8,6 +8,4 @@ Homework 3 Grade - Not Yet Announced
 
 Project Part I Grade - 98 (-2 because we uplaoded the files as .pages not .pdf)
 
-I hope these helped you with CS315. Good luck with other courses!
-
 Project was done in collaboration with: [Berk Evren Abbasoğlu](https://github.com/berkevren)
