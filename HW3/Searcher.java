@@ -34,9 +34,9 @@ public class Searcher {
     public static void main(String[] args) throws InterruptedException {
         int numThreads = 4;
 
-        int numItems = 20000000;
+        int numItems = 10000;
         Integer[] haystack = new Integer[numItems];
-        int domainSize = 100;
+        int domainSize = 1000;
         for (int i = 0; i < numItems; ++i)
             haystack[i] = (int) (Math.random() * domainSize);
         int needle = 10;
